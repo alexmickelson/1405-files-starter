@@ -2,7 +2,7 @@ using ClassLibraryProject;
 
 namespace TestProject;
 
-public class UnitTest1
+public class Part1Tests
 {
     [Fact]
     public void IsValidDateOnlyString_DetectsValidDates()

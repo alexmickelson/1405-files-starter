@@ -4,7 +4,7 @@ using ClassLibraryProject;
 namespace TestProject;
 
 [Collection("Sequential")]
-public class FileStorageTests
+public class Part2Tests
 {
   // PART 2
 
