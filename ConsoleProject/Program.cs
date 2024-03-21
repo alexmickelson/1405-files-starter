@@ -10,7 +10,7 @@ What would you like to do?
   2. Store a date in a file
   3. Exit");
   string userAnswerAsString = Console.ReadLine();
-  // TODO 1: need to check if input is valid integer, othersise repeat the while loop
+  // TODO 1: alex write banna proofing
   int userAnswer = int.Parse(userAnswerAsString);
 
   Console.WriteLine();

@@ -57,13 +57,17 @@ public static class DateStorage
   public static DateOnly LoadDateOnlyFromFile()
   {
     string path = GetFilePath();
-    if (!File.Exists(path))
+    if (StorageFileExists(path))
       return new DateOnly();
 
     string rawDateOnly = File.ReadAllText(path);
     return ParseDateOnly(rawDateOnly);
   }
 
+  private static bool StorageFileExists(string path)
+  {
+    return !File.Exists(path);
+  }
 
   public static string GetFilePath()
   {
