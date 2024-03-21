@@ -25,6 +25,7 @@ public static class DateStorage
 
   public static DateOnly LoadDateOnlyFromFile()
   {
+    return new DateOnly();
   }
 
   // do not change this function
