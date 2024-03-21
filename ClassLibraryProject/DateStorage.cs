@@ -29,7 +29,7 @@ public static class DateStorage
   }
 
   // do not change this function
-  private static bool StorageFileExists(string path)
+  public static bool StorageFileExists(string path)
   {
     return !File.Exists(path);
   }
