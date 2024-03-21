@@ -42,6 +42,7 @@ public class Part2Tests
 
   //   Assert.Equal(expected, actual);
   // }
+  
   // [Fact]
   // public void SaveDateOnlyToFile_CanStoreDate_4()
   // {
@@ -53,4 +54,18 @@ public class Part2Tests
 
   //   Assert.Equal(expected, actual);
   // }
-}
+  
+//   [Fact]
+//   public void LoadDateOnlyFromFile_CanLoadDate()
+//   {
+//     // arrange
+//     File.WriteAllText(DateStorage.GetFilePath(), "1985, 1, 4");
+
+//     // act
+//     DateOnly actual = DateStorage.LoadDateOnlyFromFile();
+//     DateOnly expected = new DateOnly(1985, 1, 4);
+
+//     // assert
+//     Assert.Equal(expected, actual);
+//   }
+// }
